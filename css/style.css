@@ -1,0 +1,144 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+h1 {
+    font-size: 2rem;
+    margin-top: 1rem;
+}
+
+header h2 {
+    margin-top: 80px;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    ;
+}
+
+header div {
+    color: aliceblue;
+}
+
+section h1 {
+    color: aliceblue;
+}
+
+.title a {
+    font-size: 1.5rem;
+    color: aliceblue;
+    display: inline-block;
+    background-color: rgb(65, 127, 171);
+    padding: 2rem;
+    padding-right: 5rem;
+    cursor: pointer;
+}
+
+.Experimente-grátis {
+    border-radius: 25px;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+/* imagem "support"*/
+div img { 
+    width: 460px;
+    height: auto;
+    margin-top: 1rem;
+    margin-left: 8rem;
+}
+
+/*fundionalidades*/
+
+.Funcionalidades {
+
+    margin-top: 45px;
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.Conteúdo {
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr 2fr;
+    padding: 40px;
+    text-align: center;
+    
+}
+
+.Conteúdo div img {
+    width: 140px;
+    height: auto;
+    border-radius: 25px;
+    margin: 20px 0 0 0;
+    
+}
+.conteudo div {
+    display: flex;
+    color: aliceblue;
+    text-align: center;
+}
+
+.ProvaSocial {
+    background-color: rgb(8, 8, 46);
+    color: #fff;
+    border-radius: 25px;
+    margin: 50px;
+    padding: 1rem;
+}
+.card-title{
+    background-color: rgb(8, 8, 46);
+    color: #fff;
+    border-radius: 25px;
+    margin: 50px;
+    padding: 1rem;
+}
+    
+.card-content a {
+    text-align: center;
+    height: 20px;
+    color: rgb(246, 255, 240);
+}   
+.container {
+    justify-content: center;
+    display: flex;
+}
+.card-btn {
+    display: flex;
+    justify-content: center;
+    border: 1px solid white;
+    border-radius: 8px;
+    padding: 20px;
+}
+
+.formulário {
+    border-radius: 30px;
+    background-color: rgb(8, 8, 46);
+    text-align: center;
+    color: #fff;
+}
+
+.text-name {
+    border-radius: 25px;
+}
+.text-email {
+    border-radius: 25px;
+}
+
+.phone {
+    border-radius: 25px;
+}
+
+.Enviar {
+    border-bottom: rgb(8, 8, 46);
+}
+
+
